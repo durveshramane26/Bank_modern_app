@@ -42,7 +42,7 @@ const Footer = () => (
                 Copyright Ⓒ 2022 HooBank. All Rights Reserved.
             </p>
 
-            <div>
+            <div className='flex flex-row md:mt-0 mt-6'>
                 {socialMedia.map((social, index) => (
                     <img 
                         key={social.id}
