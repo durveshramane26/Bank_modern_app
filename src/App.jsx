@@ -7,6 +7,7 @@ import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
 import Clients from "./components/Clients";
+import CTA from "./components/CTA";
 
 
 const App = () => (
@@ -31,6 +32,7 @@ const App = () => (
         <CardDeal />
         <Testimonials />
         <Clients />
+        <CTA />
       </div>
     </div>
   </div>
