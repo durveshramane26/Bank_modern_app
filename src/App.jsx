@@ -1,14 +1,5 @@
 import styles from "./style";
-import Navbar from './components/Navbar';
-import Hero from "./components/Hero";
-import Stats from "./components/Stats";
-import Business from "./components/Business";
-import Billing from "./components/Billing";
-import CardDeal from "./components/CardDeal";
-import Testimonials from "./components/Testimonials";
-import Clients from "./components/Clients";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 
 const App = () => (
