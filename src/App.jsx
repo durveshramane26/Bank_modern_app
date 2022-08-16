@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Business from "./components/Business";
+import Billing from "./components/Billing";
 
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
+        <Billing />
       </div>
     </div>
   </div>
